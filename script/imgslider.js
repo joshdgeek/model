@@ -1,5 +1,5 @@
 const img = document.querySelector("#img")
-let images = ["./public/pix/ngo1.jpg","./public/pix/ngo2.jpg","./public/pix/ngo13.jpg","./public/pix/ngo7.jpg","./public/pix/ngo5.jpg","./public/pix/ngo6.jpg","./public/pix/ngo14.jpg"]
+let images = ["./public/pix/ngo1.jpg","./public/pix/ngo2.jpg","./public/pix/ngo13.jpg","./public/pix/ngofb.jpg","./public/pix/ngo5.jpg","./public/pix/ngo6.jpg","./public/pix/ngo14.jpg"]
 let num = 0
 
 function transit(){
