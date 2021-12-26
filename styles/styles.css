@@ -135,12 +135,13 @@ ul{
 
 li{
     display: inline-block;
-    margin: 0px auto;
+    margin: 0px 10px;
 }
 
 a{
     color: rgb(60, 62, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
 }
 
 footer{
@@ -156,9 +157,14 @@ footer{
     place-items: center;
 }
 
-@media only screen and (min-width:320px) {
+@media only screen and (max-width:380px) {
     ul li a{
-       font-size: .81rem;
+       font-size: .8rem;
+    }
+}
+@media only screen and (max-width:320px) {
+    ul li a{
+       font-size: .6rem;
     }
 }
 
